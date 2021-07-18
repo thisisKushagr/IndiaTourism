@@ -1,39 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tourism Website</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
     <div class="top">
-      <input type="text" placeholder="Search location" />
-      <i class="fas fa-search"></i>
-      <p class="toptext">Some attractive gif :)</p>
+        <input id="searchinput" type="text" placeholder="Search location">
+        <i class="fas fa-search"></i>
+        <p class="toptext">Some attractive gif :)</p>
     </div>
 
     <section class="one">
-      <h3>Agra</h3>
+        <h3>Agra</h3>
     </section>
 
     <section class="two">
-      <h3>Kashmir</h3>
+        <h3>Aizawl</h3>
     </section>
 
     <section class="three">
-      <h3>Varanasi</h3>
+        <h3>Varanasi</h3>
     </section>
 
-    <footer>
-      <h3 class="footer">Contact Us</h3>
-    </footer>
+    <section class="three">
+        <h3>Ladakh</h3>
+    </section>
+
+    <section class="three">
+        <h3>Kolkata</h3>
+    </section>
+
+    <section class="three">
+        <h3>Chennai</h3>
+    </section>
+
+    <section class="three">
+        <h3>Bangalore</h3>
+    </section>
+
+    <section class="three">
+        <h3>Haridwar</h3>
+    </section>
+
+    <section class="three">
+        <h3>Guwahati</h3>
+    </section>
+
+    <section class="three">
+        <h3>Port Blair</h3>
+    </section>
+
+    <section class="three">
+        <h3>Amritsar</h3>
+    </section>
+
+    <section class="three">
+        <h3>Ahmedabad</h3>
+    </section>
+
+    <section class="three">
+        <h3>Mumbai</h3>
+    </section>
+
+    <section class="three">
+        <h3>Panaji</h3>
+    </section>
+
+    <section class="three">
+        <h3>Jaisalmer</h3>
+    </section>
+
+    <!-- <input type="text" id="contactus" placeholder="Your Name"> -->
+
+
+    <div class="footer">
+        <h3 class="footer1">Contact Us</h3>
+        <form>
+            <input type="text" id="fname" name="name" placeholder='First Name' required minlength="3"  size="10">
+            <input type="text" id="lname" name="name" placeholder='Last Name' required minlength="4"  size="10">
+        </form>
+
+        <form>
+            <input type="number" id="num" name="name" placeholder='Enter Your Phone Number'required minlength="4"  size="10">
+        
+            <input type="email" id="email" name="name" placeholder='Enter Your Email' required minlength="4"  size="10">
+        </form>
+        
+        <form>
+            <textarea>Enter Your Message</textarea> <!--type="message" id="message" name="name" placeholder='Enter Your Message' required minlength="4" maxlength="8" size="10"> -->
+        </form>
+
+        <button>Submit</button>
+
+    </div>
 
     <script src="parallax.js"></script>
-  </body>
+</body>
+
 </html>

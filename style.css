@@ -1,84 +1,194 @@
-body {
-  border: 0;
-  font-family: Helvetica;
-  margin: 0;
-  padding: 0;
+body{
+    border: 0;
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+
 }
 
-div {
-  width: 100%;
-  height: 100vh;
+div{
+    width: 100%;
+    height: 100vh;
 }
 
-input {
-  width: 300px;
-  height: 12px;
-  padding: 10px;
-  margin-top: 20px;
-  margin-left: 40%;
-  /*display: flex;
-  align-items: top;
-  justify-content: top;*/
-  position: fixed;
-  border: 1px solid rgb(155, 153, 153);
-  border-radius: 10px;
+#searchinput{
+    width: 300px;
+    height: 12px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 40%;
+    display: flex;
+    align-items: top;
+    justify-content: top;
+    position:fixed;
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 10px;
 }
 
-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-attachment: fixed;
-  margin-top: 7px;
-  margin-bottom: 3px;
-  width: 100%;
-  height: 100vh;
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    width: 100%;
+    height: 100vh;
 }
 
-.toptext {
-  color: black;
-  text-align: center;
+.toptext{
+    color: black;
+    text-align: center;
 }
 
-h3,
-p {
-  font-size: 60px;
-  color: white;
-  padding: 8px 24px;
-  border-radius: 16px;
+h3, p{
+    font-size: 60px;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 16px;
 }
 
-.one h3 {
-  background-color: black;
+.one h3{
+    background-color: black;
 }
 
-section:nth-child(2) {
-  background-image: url("taj.jpg");
-  background-attachment: fixed;
-  background-size: cover;
+section:nth-child(2){
+    background-image: url('taj.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-section:nth-child(3) {
-  background-image: url("kashmir.jpg");
-  background-attachment: fixed;
-  background-size: cover;
+section:nth-child(3){
+    background-image: url('kashmir.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-section:nth-child(4) {
-  background-image: url("vns.jpg");
-  background-attachment: fixed;
-  background-size: cover;
+section:nth-child(4){
+    background-image: url('vns.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-footer {
-  width: 100%;
-  height: 80vh;
-  background-color: black;
+section:nth-child(5){
+    background-image: url('vns.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-.footer {
-  color: white;
-  text-align: center;
-  margin-top: 5px;
-  padding: 30px;
+section:nth-child(6){
+    background-image: url('vns.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section:nth-child(7){
+    background-image: url('vns.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section:nth-child(8){
+    background-image: url('vns.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+section:nth-child(){
+    background-image: url('vns.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section:nth-child(4){
+    background-image: url('vns.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ .footer{
+    text-align: center;
+     /* display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap; */
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.footer1{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    padding: 30px;
+}
+
+#contactus{
+    display: block;
+    margin-bottom: 40px;
+} 
+
+#fname, #lname{
+    font-family: monospace;
+    /* font-size: 10px; */
+    margin-bottom: 20px;
+    margin: 10px;
+    padding: 5px;
+    height: 1.5rem;
+    width: 234px;
+    color: white;
+    border: 1px solid rgb(208 205 205);
+    border-radius: 6px;
+}
+
+/* #num, #email{
+    text-align: center;
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center;
+    margin-top: 20px;
+    height: 1.2rem;
+    width: 500px;
+    border-radius: 6px;
+} */
+
+#num, #email{
+    font-family: monospace;
+    margin: 10px;
+    padding: 5px;
+    height: 1.5rem;
+    width: 234px;
+    color: white;
+    border: 1px solid rgb(208 205 205);
+    border-radius: 6px; 
+}
+
+textarea
+{
+    color: rgb(128, 128, 128);
+    padding: 5px;
+    margin: 20px;
+    height: 200px;
+    width: 500px;
+    border-radius: 6px;
+}
+   
+label{
+    margin-bottom: 10px;
+    display: block;
+    color: white;
+    font-family: Helvetica;
+}
+
+button{
+    background: rgb(33, 97, 235);
+    color: white;
+    text-align: center;
+    height: 2rem;
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px
 }

@@ -211,6 +211,11 @@ section {
   text-align: center;
 }
 
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
 h3,
 p {
   font-size: 60px;
@@ -219,9 +224,9 @@ p {
   border-radius: 16px;
 }
 
-.one h3 {
+/* .one h3 {
   background-color: black;
-}
+} */
 
 section:nth-child(3) {
   background-image: url("./aizawl.jpg");
